@@ -1,0 +1,37 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ede6e03352
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409092
+created: 1635361409092
+url: "{{ base_url }}/api/v1/Print/PrintTransferNote"
+name: /api/v1/Print/PrintTransferNote
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "coolstoreIntegrationId": 0,
+      "siteCode": "string",
+      "transferNumber": "string",
+      "uncPath": "string",
+      "isDuplex": true,
+      "appUserName": "string",
+      "isSerialised": true
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1635361409092
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

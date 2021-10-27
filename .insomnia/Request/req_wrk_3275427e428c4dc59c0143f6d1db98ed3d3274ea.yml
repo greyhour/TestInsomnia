@@ -1,0 +1,33 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed3d3274ea
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409687
+created: 1635361409687
+url: "{{ base_url }}/api/v1/LoadPreload/getCurrentEnvelopesForSite"
+name: /api/v1/LoadPreload/getCurrentEnvelopesForSite
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: siteCode
+    disabled: true
+    value: string
+  - name: coolstoreIntegrationID
+    disabled: true
+    value: "0"
+  - name: materialGroupCode
+    disabled: true
+    value: string
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+authentication: {}
+metaSortKey: -1635361409687
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

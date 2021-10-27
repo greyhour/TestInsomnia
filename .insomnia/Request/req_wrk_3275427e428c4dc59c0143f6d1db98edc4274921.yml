@@ -1,0 +1,36 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98edc4274921
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409627
+created: 1635361409627
+url: "{{ base_url }}/api/v1/LoadPreload/getPreLoadOrderData"
+name: /api/v1/LoadPreload/getPreLoadOrderData
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: siteCode
+    disabled: true
+    value: string
+  - name: deliveryRequestNo
+    disabled: true
+    value: string
+  - name: envelopeNumber
+    disabled: true
+    value: string
+  - name: coolstoreIntegrationId
+    disabled: true
+    value: "0"
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+authentication: {}
+metaSortKey: -1635361409627
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

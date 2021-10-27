@@ -1,0 +1,38 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed1b7b8001
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409094
+created: 1635361409094
+url: "{{ base_url }}/api/v1/Print/PrintEANLabel"
+name: /api/v1/Print/PrintEANLabel
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "packNumbers": [
+        "string"
+      ],
+      "palletNumber": "string",
+      "starnetIPAddress": "string",
+      "starnetPortNumber": 0,
+      "printerJobNumber": 0,
+      "printerGroupId": 0
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1635361409094
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

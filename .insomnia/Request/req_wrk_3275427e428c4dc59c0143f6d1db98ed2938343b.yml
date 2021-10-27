@@ -1,0 +1,34 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed2938343b
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409105
+created: 1635361409105
+url: "{{ base_url }}/api/v1/PalletTransfer/receipt"
+name: /api/v1/PalletTransfer/receipt
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "errorMessage": "string",
+      "coolstoreIntegrationId": 0,
+      "appUserName": "string",
+      "transferNumber": "string"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1635361409105
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

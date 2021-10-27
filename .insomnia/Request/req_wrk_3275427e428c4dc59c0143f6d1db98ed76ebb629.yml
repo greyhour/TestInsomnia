@@ -1,0 +1,24 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed76ebb629
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361411846
+created: 1635361411846
+url: "{{ base_url }}/api/v1/AppSettings/StarnetServers"
+name: /api/v1/AppSettings/StarnetServers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+authentication: {}
+metaSortKey: -1635361411846
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

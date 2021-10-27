@@ -1,0 +1,35 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98edbacfa558
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409096
+created: 1635361409096
+url: "{{ base_url }}/api/v1/Print/PrintGrowerSummary"
+name: /api/v1/Print/PrintGrowerSummary
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "palletNumber": "string",
+      "starnetIPAddress": "string",
+      "starnetPortNumber": 0,
+      "printerJobNumber": 0,
+      "printerGroupId": 0
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1635361409096
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,43 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed4f29aceb
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409110
+created: 1635361409110
+url: "{{ base_url }}/api/v1/PalletTransfer/commit"
+name: /api/v1/PalletTransfer/commit
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "errorMessage": "string",
+      "coolstoreIntegrationId": 0,
+      "appUserName": "string",
+      "siteTo": "string",
+      "siteFrom": "string",
+      "transferNumber": "string",
+      "truckCompany": "string",
+      "truckNumber": "string",
+      "temperature": "string",
+      "notes": "string",
+      "palletCount": 0,
+      "transferDate": "2021-10-27T19:03:29.018Z",
+      "isExternal": true
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1635361409110
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

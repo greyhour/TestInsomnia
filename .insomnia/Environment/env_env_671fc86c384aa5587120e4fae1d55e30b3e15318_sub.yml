@@ -1,0 +1,27 @@
+_id: env_env_671fc86c384aa5587120e4fae1d55e30b3e15318_sub
+type: Environment
+parentId: env_671fc86c384aa5587120e4fae1d55e30b3e15318
+modified: 1635367245834
+created: 1635361412082
+name: FreshMobile env
+data:
+  scheme: https
+  base_path: /FreshPack.FreshMobileApi
+  host: rsltstmob01.radfords.internal
+  authorization: authorization
+  username: radfords
+  fullName: Radford Software
+  token: "{% response 'body', 'req_wrk_3275427e428c4dc59c0143f6d1db98ed62942479',
+    'b64::JC50b2tlbg==::46b', 'no-history', 60 %}"
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+    - authorization
+    - username
+    - fullName
+    - token
+color: null
+isPrivate: false
+metaSortKey: 1635361412082

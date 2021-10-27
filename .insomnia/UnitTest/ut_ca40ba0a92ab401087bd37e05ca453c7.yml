@@ -1,0 +1,13 @@
+_id: ut_ca40ba0a92ab401087bd37e05ca453c7
+type: UnitTest
+parentId: uts_bcb808fef0874135b014d93b6651c2d9
+modified: 1635362719624
+created: 1635361638734
+requestId: req_wrk_3275427e428c4dc59c0143f6d1db98eda035012b
+name: No Error Message
+code: |-
+  const response = await insomnia.send();
+  const body = JSON.parse(response.data);
+  const errorMessage = body.errorMessage;
+
+  expect(errorMessage).to.eql("");

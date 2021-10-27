@@ -1,0 +1,27 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ede6d950ee
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409026
+created: 1635361409026
+url: "{{ base_url }}/api/v1/MasterdataTimesheet/MasterdataTimesheetsV2"
+name: /api/v1/MasterdataTimesheet/MasterdataTimesheetsV2
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: hash
+    disabled: true
+    value: string
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+authentication: {}
+metaSortKey: -1635361409026
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

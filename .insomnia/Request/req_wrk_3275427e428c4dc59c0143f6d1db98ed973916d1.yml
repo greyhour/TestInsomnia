@@ -1,0 +1,27 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed973916d1
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361411182
+created: 1635361411182
+url: "{{ base_url }}/api/v1/Budwood/BinOrSleeveDetail"
+name: /api/v1/Budwood/BinOrSleeveDetail
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: itemNo
+    disabled: true
+    value: string
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+authentication: {}
+metaSortKey: -1635361411182
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

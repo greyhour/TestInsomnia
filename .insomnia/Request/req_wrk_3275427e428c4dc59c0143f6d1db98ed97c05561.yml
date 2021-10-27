@@ -1,0 +1,38 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed97c05561
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409299
+created: 1635361409299
+url: "{{ base_url }}/api/v1/LoadPreload/reprintLoadoutReport"
+name: /api/v1/LoadPreload/reprintLoadoutReport
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "coolstoreIntegrationID": 0,
+      "userName": "string",
+      "siteCode": "string",
+      "envelopeNo": "string",
+      "loadoutNotePrinter": "string",
+      "loadoutNoteIsDuplex": true,
+      "loadoutNoteNumCopies": 0,
+      "errorMessage": "string"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1635361409299
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

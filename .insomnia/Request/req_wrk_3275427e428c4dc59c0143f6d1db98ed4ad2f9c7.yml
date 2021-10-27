@@ -1,0 +1,55 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed4ad2f9c7
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409084
+created: 1635361409084
+url: "{{ base_url }}/api/v1/Rework/MovePackBetweenPallets"
+name: /api/v1/Rework/MovePackBetweenPallets
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "coolstoreIntegrationId": 0,
+      "appUserName": "string",
+      "siteCode": "string",
+      "referenceField": "string",
+      "repackTeam": "string",
+      "reason": "string",
+      "sourcePalletNumber": "string",
+      "destinationPalletNumber": "string",
+      "growerLineTransactionId": "string",
+      "movePackModels": [
+        "string"
+      ],
+      "packCount": 0,
+      "fruitCount": 0,
+      "isNewPallet": true,
+      "materialNumber": "string",
+      "packType": "string",
+      "packIndicator": "string",
+      "customerLabel": "string",
+      "packLabel": "string",
+      "autoLocateWarmRoomCode": "string",
+      "autoLocateWarmRowCode": "string",
+      "orderNumber": "string",
+      "autoLiftInternalHolds": true,
+      "isDonorRepack": true
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1635361409084
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

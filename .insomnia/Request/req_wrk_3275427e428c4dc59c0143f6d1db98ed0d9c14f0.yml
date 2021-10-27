@@ -1,0 +1,33 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed0d9c14f0
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361411553
+created: 1635361411553
+url: "{{ base_url }}/api/v1/BinReceipt/ProcessDocket"
+name: /api/v1/BinReceipt/ProcessDocket
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: docketNumber
+    disabled: true
+    value: string
+  - name: site
+    disabled: true
+    value: string
+  - name: user
+    disabled: true
+    value: string
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+authentication: {}
+metaSortKey: -1635361411553
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed0a2c5122
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409992
+created: 1635361409992
+url: "{{ base_url }}/api/v1/HiTag"
+name: /api/v1/HiTag
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "coolstoreIntegrationId": 0,
+      "connectTag": true,
+      "userName": "string",
+      "hiTag": "string",
+      "hiTagsPalletNo": "string",
+      "destPalletNo": "string",
+      "destPalletNosHiTag": "string"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1635361409992
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

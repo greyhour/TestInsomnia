@@ -1,0 +1,47 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed6a85d7fd
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361411434
+created: 1635361411434
+url: "{{ base_url }}/api/v1/Bins/SendPickerBins"
+name: /api/v1/Bins/SendPickerBins
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+      {
+        "binNumber": "string",
+        "binTypeId": 0,
+        "orchardId": 0,
+        "blockId": 0,
+        "pickId": 0,
+        "pickDate": "2021-10-27T19:03:29.017Z",
+        "truckSubmission": true,
+        "varietyId": 0,
+        "harvestBinPickers": [
+          {
+            "pickerId": 0,
+            "percentPicked": 0,
+            "packNumber": "string"
+          }
+        ]
+      }
+    ]
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1635361411434
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

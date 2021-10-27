@@ -1,0 +1,59 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed44f3bb23
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409080
+created: 1635361409080
+url: "{{ base_url }}/api/v1/Rework/SetRepackPallet"
+name: /api/v1/Rework/SetRepackPallet
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "coolstoreIntegrationId": 0,
+      "appUserName": "string",
+      "siteCode": "string",
+      "referenceField": "string",
+      "repackTeam": "string",
+      "reworkFunctionEnum": 0,
+      "palletNumber": "string",
+      "growerLineTransactionId": "string",
+      "packNumbers": [
+        "string"
+      ],
+      "countPacksChecked": 0,
+      "countPackLoss": 0,
+      "countFruitChecked": 0,
+      "countFruitLoss": 0,
+      "lossReason": "string",
+      "lossCodes": "string",
+      "abandonCode": "string",
+      "reasonNote": "string",
+      "isDonor": true,
+      "useExtendExpiry": true,
+      "autoLocateWarmRoomCode": "string",
+      "autoLocateWarmRowCode": "string",
+      "defaultFruitLossCode": "string",
+      "packrun": "string",
+      "otherPallet": "string",
+      "orderNumber": "string",
+      "extendOtherPhytoBatches": true,
+      "extendOtherGrowers": true
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1635361409080
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

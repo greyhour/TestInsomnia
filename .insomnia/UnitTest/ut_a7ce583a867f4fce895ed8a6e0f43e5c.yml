@@ -1,0 +1,13 @@
+_id: ut_a7ce583a867f4fce895ed8a6e0f43e5c
+type: UnitTest
+parentId: uts_bcb808fef0874135b014d93b6651c2d9
+modified: 1635363358688
+created: 1635362992475
+requestId: req_wrk_3275427e428c4dc59c0143f6d1db98eda035012b
+name: Key UseAPISettings has correct value
+code: |-
+  const response = await insomnia.send();
+  const body = JSON.parse(response.data);
+  const UseAPISettings = body.settings.find(m => m.key === "UseAPISettings")
+
+  expect(UseAPISettings.value).to.eql("true");

@@ -1,0 +1,61 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98edf78d31e7
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409023
+created: 1635361409023
+url: "{{ base_url }}/api/v1/MasterdataTimesheet/GrowMasterdataModel"
+name: /api/v1/MasterdataTimesheet/GrowMasterdataModel
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "orchardGroupHash": "string",
+      "orchardsHash": "string",
+      "blocksHash": "string",
+      "picksHash": "string",
+      "teamsHash": "string",
+      "staffHash": "string",
+      "binTypesHash": "string",
+      "areaGroupsHash": "string",
+      "activityAreaLevelsHash": "string",
+      "activitiesHash": "string",
+      "subActivitiesHash": "string",
+      "binBlocksHash": "string",
+      "payProfilesHash": "string",
+      "varietiesHash": "string",
+      "binBlockVarietiesHash": "string",
+      "applicationSettingsHash": "string",
+      "binCardPrintHash": "string",
+      "additionalTimesheetFieldsListHash": "string",
+      "rowsHash": "string",
+      "rowActivityQuantityValidationHash": "string",
+      "languageHash": "string",
+      "englishMessageHash": "string",
+      "englishMessageTranslationHash": "string",
+      "equipmentHash": "string",
+      "waterSourceHash": "string",
+      "windDirectionHash": "string",
+      "zespriSprayReasonHash": "string",
+      "externalSprayDiarySystemHash": "string",
+      "surplusDisposalHash": "string",
+      "weatherConditionHash": "string",
+      "diaryEventTypeHash": "string"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1635361409023
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

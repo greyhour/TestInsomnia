@@ -1,0 +1,50 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed45892821
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409085
+created: 1635361409085
+url: "{{ base_url }}/api/v1/Rework/SetPalletAttributes"
+name: /api/v1/Rework/SetPalletAttributes
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "coolstoreIntegrationId": 0,
+      "appUserName": "string",
+      "siteCode": "string",
+      "referenceField": "string",
+      "reworkTeam": "string",
+      "palletNumber": "string",
+      "materialNumber": "string",
+      "packType": "string",
+      "plant": "string",
+      "customerLabel": "string",
+      "packLabel": "string",
+      "subBrand": "string",
+      "conditioningIndicator": "string",
+      "labellingIndicator": "string",
+      "packIndicator": "string",
+      "temperatureIndicator": "string",
+      "trialPackagingIndicator": "string",
+      "pcReference": "string",
+      "pcNote": "string",
+      "pcNote2": "string"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1635361409085
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

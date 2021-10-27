@@ -1,0 +1,47 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed7b9ab506
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361411372
+created: 1635361411372
+url: "{{ base_url }}/api/v1/BinTransfer/Send"
+name: /api/v1/BinTransfer/Send
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "docketNumber": "string",
+      "sourceSiteID": 0,
+      "sourceSite": "string",
+      "destinationSiteID": 0,
+      "destinationSite": "string",
+      "truckCompanyID": 0,
+      "truckCompany": "string",
+      "scanDate": "2021-10-27T19:03:29.017Z",
+      "binType": 0,
+      "transferType": 0,
+      "note": "string",
+      "binList": [
+        "string"
+      ],
+      "appUserID": 0,
+      "deviceName": "string",
+      "createXML": true
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1635361411372
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

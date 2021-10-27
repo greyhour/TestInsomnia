@@ -1,0 +1,23 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98eda035012b
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635366897708
+created: 1635361411964
+url: "{{ base_url }}/api/v1/AppSettings"
+name: /api/v1/AppSettings
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1635361411964
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed7626696e
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361410297
+created: 1635361410297
+url: "{{ base_url }}/error"
+name: /error
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: api-version
+    disabled: true
+    value: string
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+authentication: {}
+metaSortKey: -1635361410297
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,96 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98eda9317a91
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409057
+created: 1635361409057
+url: "{{ base_url }}/api/v1/Timesheet/PostTeamTimesheet"
+name: /api/v1/Timesheet/PostTeamTimesheet
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "timesheetId": 0,
+      "timesheetDate": "2021-10-27T19:03:29.019Z",
+      "personId": 0,
+      "activityId": 0,
+      "subActivityId": 0,
+      "teamId": 0,
+      "requiresPayProfile": true,
+      "payProfileId": 0,
+      "orchardGroupId": 0,
+      "orchardId": 0,
+      "areaGroupId": 0,
+      "blockId": 0,
+      "timesheetGuid": "string",
+      "comment": "string",
+      "createdFromMobile": true,
+      "hash": "string",
+      "manuallyUpdated": true,
+      "isComplete": true,
+      "syncedOnline": true,
+      "activityName": "string",
+      "subActivityName": "string",
+      "teamName": "string",
+      "payProfileName": "string",
+      "orchardGroupName": "string",
+      "orchardName": "string",
+      "areaGroupName": "string",
+      "blockName": "string",
+      "totalStaff": 0,
+      "activityLookupModel": null,
+      "subActivityLookupModel": null,
+      "activityLookupModelV1": null,
+      "rowVersion": "ZXhhbXBsZQ==",
+      "timesheetLines": [
+        {
+          "timesheetLineId": 0,
+          "timesheetId": 0,
+          "personId": 0,
+          "personName": "string",
+          "startTime": "string",
+          "endTime": "string",
+          "workMinutes": 0,
+          "paidBreak": 0,
+          "bonusMissedMinutes": 0,
+          "bonusMissedTimeReason": "string",
+          "rowVersion": "ZXhhbXBsZQ==",
+          "discretionaryBonus1Achieved": true,
+          "discretionaryBonus2Achieved": true,
+          "ladderUsedAchieved": true,
+          "timesheetLineGuid": "string",
+          "count": 0,
+          "deleteRequired": true,
+          "rowQuantities": [
+            {
+              "timesheetLineActivityRowQuantityId": 0,
+              "timesheetLineId": 0,
+              "rowId": 0,
+              "quantity": 0,
+              "syncedQuantity": 0,
+              "deleteRequired": true
+            }
+          ]
+        }
+      ]
+    }
+parameters:
+  - name: overrideOnlineTimesheetGuid
+    disabled: true
+    value: string
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1635361409057
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed81c09498
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409116
+created: 1635361409116
+url: "{{ base_url }}/api/v1/Palletisation/PalletisePack"
+name: /api/v1/Palletisation/PalletisePack
+description: ""
+method: POST
+body: {}
+parameters:
+  - name: palletNumber
+    disabled: true
+    value: string
+  - name: packNumber
+    disabled: true
+    value: string
+  - name: enableMixed
+    disabled: true
+    value: "true"
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+authentication: {}
+metaSortKey: -1635361409116
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

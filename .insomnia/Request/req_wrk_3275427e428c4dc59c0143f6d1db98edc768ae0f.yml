@@ -1,0 +1,30 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98edc768ae0f
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361410117
+created: 1635361410117
+url: "{{ base_url }}/api/v1/FruitSampling/getLiveFruitSamplingData"
+name: /api/v1/FruitSampling/getLiveFruitSamplingData
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: collectorName
+    disabled: true
+    value: string
+  - name: hash
+    disabled: true
+    value: string
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+authentication: {}
+metaSortKey: -1635361410117
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

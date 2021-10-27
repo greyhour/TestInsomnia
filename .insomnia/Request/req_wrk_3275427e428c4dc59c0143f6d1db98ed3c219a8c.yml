@@ -1,0 +1,27 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed3c219a8c
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361410774
+created: 1635361410774
+url: "{{ base_url }}/api/v1/Enquiry"
+name: /api/v1/Enquiry
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: itemnumber
+    disabled: true
+    value: string
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+authentication: {}
+metaSortKey: -1635361410774
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ede2c8bbb1
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361411064
+created: 1635361411064
+url: "{{ base_url }}/api/v1/Budwood/AddSleeveToBin"
+name: /api/v1/Budwood/AddSleeveToBin
+description: ""
+method: POST
+body: {}
+parameters:
+  - name: sleeveNumber
+    disabled: true
+    value: string
+  - name: binNumber
+    disabled: true
+    value: string
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+authentication: {}
+metaSortKey: -1635361411064
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

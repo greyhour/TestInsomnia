@@ -1,0 +1,27 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed1e71d98f
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361410714
+created: 1635361410714
+url: "{{ base_url }}/api/v1/Enquiry/Packs/{{ palletNumber }}"
+name: /api/v1/Enquiry/Packs/{palletNumber}
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: includeDeletedPacks
+    disabled: true
+    value: "true"
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+authentication: {}
+metaSortKey: -1635361410714
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed133e2b15
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409089
+created: 1635361409089
+url: "{{ base_url }}/api/v1/PrintOnline"
+name: /api/v1/PrintOnline
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: nProductionFacilityID
+    disabled: true
+    value: "0"
+  - name: nGraderID
+    disabled: true
+    value: "0"
+  - name: nGraderDropID
+    disabled: true
+    value: "0"
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+authentication: {}
+metaSortKey: -1635361409089
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

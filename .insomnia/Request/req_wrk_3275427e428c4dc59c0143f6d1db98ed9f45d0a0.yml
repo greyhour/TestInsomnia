@@ -1,0 +1,57 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed9f45d0a0
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409055
+created: 1635361409055
+url: "{{ base_url }}/api/v1/Timesheet/DeleteTimesheetLine"
+name: /api/v1/Timesheet/DeleteTimesheetLine
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "timesheetLineId": 0,
+      "timesheetId": 0,
+      "personId": 0,
+      "personName": "string",
+      "startTime": "string",
+      "endTime": "string",
+      "workMinutes": 0,
+      "paidBreak": 0,
+      "bonusMissedMinutes": 0,
+      "bonusMissedTimeReason": "string",
+      "rowVersion": "ZXhhbXBsZQ==",
+      "discretionaryBonus1Achieved": true,
+      "discretionaryBonus2Achieved": true,
+      "ladderUsedAchieved": true,
+      "timesheetLineGuid": "string",
+      "count": 0,
+      "deleteRequired": true,
+      "rowQuantities": [
+        {
+          "timesheetLineActivityRowQuantityId": 0,
+          "timesheetLineId": 0,
+          "rowId": 0,
+          "quantity": 0,
+          "syncedQuantity": 0,
+          "deleteRequired": true
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1635361409055
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

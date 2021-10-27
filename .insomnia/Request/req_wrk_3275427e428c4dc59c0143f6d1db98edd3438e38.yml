@@ -1,0 +1,24 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98edd3438e38
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409117
+created: 1635361409117
+url: "{{ base_url }}/api/v1/Palletisation/CreateNewPallet"
+name: /api/v1/Palletisation/CreateNewPallet
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+authentication: {}
+metaSortKey: -1635361409117
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,42 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ed768ae12c
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361410055
+created: 1635361410055
+url: "{{ base_url }}/api/v1/FruitSampling"
+name: /api/v1/FruitSampling
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+      {
+        "freshMobileEventId": "string",
+        "freshMobileTypeValue": 0,
+        "freshMobileEventDate": "2021-10-27T19:03:29.017Z",
+        "sampleNumber": "string",
+        "comment": "string",
+        "device": "string",
+        "hazard": "string",
+        "severity": "string",
+        "kpin": "string",
+        "blocks": "string"
+      }
+    ]
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1635361410055
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

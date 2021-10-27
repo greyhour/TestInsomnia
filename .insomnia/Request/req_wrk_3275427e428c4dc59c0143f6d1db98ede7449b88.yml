@@ -1,0 +1,35 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ede7449b88
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409067
+created: 1635361409067
+url: "{{ base_url }}/api/v1/RoomMap/getPackrunsForCoolstore"
+name: /api/v1/RoomMap/getPackrunsForCoolstore
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "errorMessage": "string",
+      "coolstoreIntegrationId": 0,
+      "coolstoreCode": "string",
+      "materialGroupCode": "string",
+      "produceCode": "string"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1635361409067
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

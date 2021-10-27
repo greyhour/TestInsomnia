@@ -1,0 +1,39 @@
+_id: req_wrk_3275427e428c4dc59c0143f6d1db98ede00a4b72
+type: Request
+parentId: wrk_3275427e428c4dc59c0143f6d1db98ed
+modified: 1635361409569
+created: 1635361409569
+url: "{{ base_url }}/api/v1/LoadPreload/preloadPallet"
+name: /api/v1/LoadPreload/preloadPallet
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "appUsername": "string",
+      "siteCode": "string",
+      "envelopeNo": "string",
+      "palletNumber": "string",
+      "useOrderManagement": true,
+      "removePalletFromEnvelope": true,
+      "useAutoRemoveAllocationOnRemovePallet": true,
+      "useStrictValidation": true,
+      "coolstoreIntegrationId": 0
+    }
+parameters: []
+headers:
+  - name: Authorization
+    disabled: false
+    value: "{{ authorization }}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1635361409569
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
